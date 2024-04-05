@@ -8,3 +8,7 @@ So far the project seems like a lot to wrap my head around but breaking it down 
 I like how I have the tasks set up, I think it breaks up a lot of the meat of execution into different tasks instead of having one massive physics engine task. 
 
 Luke
+
+WEEK 2:
+
+Updated probability of senioritis risk because it is really starting to hit. 
