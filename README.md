@@ -15,7 +15,7 @@ Updated probability of senioritis risk because it is really starting to hit, as 
 
 WEEK 3: 
 
-Got the ball rolling around the screen based on the angle of the board, which knocks off a big functional test, and also means we are passing one of the unit test. Most of this weeks time spent on physics engine task and LCD task, as well as some time cleaning up the gyro task. As far as risk I added a risk for not getting system view to work on mac with probablility 100, so it is accepted. The work around is to run it on my windows desktop at home. 
+Got the ball rolling around the screen based on the angle of the board, which knocks off a big functional test, and also means we are passing one of the unit test. Most of this weeks time spent on physics engine task and LCD task, as well as some time cleaning up the gyro task. As far as risk I added a risk for not getting system view to work on mac with probablility 100, so it is accepted. The work around is to run it on my windows desktop at home. I also mitigated the risk of too many mutexes for global info by using a sempahore to so the physics task can let the LCD task know that the ball's position has been updated. 
 
 Just need to get the obstacles and collisions working, then I need to get the quantum working and we are most of the way done- I would describe this bare functionality as the minimum viable product. 
 
