@@ -20,3 +20,9 @@ Got the ball rolling around the screen based on the angle of the board, which kn
 Just need to get the obstacles and collisions working, then I need to get the quantum working and we are most of the way done- I would describe this bare functionality as the minimum viable product. 
 
 Changed plan to have collision checks occur in physics task as opposed to LCD task which will just update ball position periodically- thus LCD task is nearly done, just needs to have win conditions added and we are done. 
+
+WEEK 4:
+
+Put a lot of time into the maze this week. Created a struct type cell that has position and 4 walls, will likely also have integers for hole and waypoint. We have 48 cells that are pseudorandom and there is a maze on the screen. Close to getting collisions, will need to implement that in the physics task but it is largely based on how the maze is designed. The cells are structured in an array, but I was thinking about storing them in a BST or 2D array so that we don't have O(n) latency to check which cell the ball is currently in. 
+
+Also cleaned up gyro task and physics bit to account for drift. 
