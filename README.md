@@ -26,3 +26,9 @@ WEEK 4:
 Put a lot of time into the maze this week. Created a struct type cell that has position and 4 walls, will likely also have integers for hole and waypoint. We have 48 cells that are pseudorandom and there is a maze on the screen. Close to getting collisions, will need to implement that in the physics task but it is largely based on how the maze is designed. The cells are structured in an array, but I was thinking about storing them in a BST or 2D array so that we don't have O(n) latency to check which cell the ball is currently in. 
 
 Also cleaned up gyro task and physics bit to account for drift. 
+
+Week 5:
+
+Risk updates- changed collision latency risk "Own" description reflecting the plan to increase clock speed if it is an issue. Also changed randomzied obstacles risk to owned, as I am looking into and spent some time this week looking RNG using thermal noise from GPIO ports. I added a risk about me realizing that if I bomb the final project demo it won't actually affect my grade that much. I graduate in two weeks, so this project is starting to seem really insignificant.
+
+Overall I only put in shy of two hours this week as we have our final capstone expo tomorrow Friday, April 27th, and that has eaten up pretty much all of my time this week. It's unfortunate, but unfortunately that has taken precedent over this project, as we have been scrambling all week to get things finalized. However, I should have some time this weekend and early next week to grind the project.
