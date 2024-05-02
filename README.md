@@ -32,3 +32,7 @@ Week 5:
 Risk updates- changed collision latency risk "Own" description reflecting the plan to increase clock speed if it is an issue. Also changed randomzied obstacles risk to owned, as I am looking into and spent some time this week looking RNG using thermal noise from GPIO ports. I added a risk about me realizing that if I bomb the final project demo it won't actually affect my grade that much. I graduate in two weeks, so this project is starting to seem really insignificant.
 
 Overall I only put in shy of two hours this week as we have our final capstone expo tomorrow Friday, April 27th, and that has eaten up pretty much all of my time this week. It's unfortunate, but unfortunately that has taken precedent over this project, as we have been scrambling all week to get things finalized. However, I should have some time this weekend and early next week to grind the project.
+
+Week 6:
+
+Didn't update anything. Senioritis risk did in fact hit. FInal product not working. Cheers.
